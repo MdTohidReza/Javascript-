@@ -1,6 +1,6 @@
 const name = "Tohid"
 const repoCount= 3
-
+console.log(name + " Reza" + " has"+ repoCount);
 //console.log(name+ repoCount+ " Reza"); This is outdated format to add string using(+ or ,) sign
 // we use backtex to add stings in modern day
 
