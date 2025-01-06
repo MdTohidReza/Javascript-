@@ -115,18 +115,18 @@ try
 
 
  ///
-//  async function getAllUser() {
-//    try {
-//     const response = await fetch('https://jsonplaceholder.typicode.com/users')
-//     const data = await response.json()
-//     console.log(data);
-//    } catch (error) {
-//     console.log(error);
+ async function getAllUser() {
+   try {
+    const response = await fetch('https://jsonplaceholder.typicode.com/users')
+    const data = await response.json()
+    console.log(data);
+   } catch (error) {
+    console.log(error);
     
-//    }
+   }
      
-//  }
-//  getAllUser()
+ }
+ getAllUser()
 
 fetch('https://jsonplaceholder.typicode.com/users')
 
