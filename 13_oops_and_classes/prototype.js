@@ -26,7 +26,42 @@ Object.prototype.tohid = function()
         console.log(`hitesh says hello`);
         
     }
-heroPower.tohid()
-myHeros.tohid()
+// heroPower.tohid()
+// myHeros.tohid()
+// myHeros.heytohid()
 // heroPower.heyTohid()
 
+
+
+// inheritance
+
+const user={
+    name :"Reza",
+    email: "reza@gmail.com"
+}
+
+
+const Teacher = {
+    makeVideo:true
+}
+
+const TeachingSupport ={
+    isAvailable : false
+}
+
+const TASupport ={
+    makeAssignment :'js assignment',
+    fullTime:true
+}
+
+Object.setPrototypeOf(TeachingSupport,Teacher)
+
+let anotherUsername = "ChaiAurCode"
+
+String.prototype.trueLength = function(){
+    console.log(`${this}`);
+    
+    console.log(`True length is: ${this.trim().length}`);  
+}
+anotherUsername.trueLength()
+"tohid".trueLength()
